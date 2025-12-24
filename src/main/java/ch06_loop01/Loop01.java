@@ -1,4 +1,4 @@
-package Loop01;
+package ch06_loop01;
 /*
     while 반복문
     형식 :

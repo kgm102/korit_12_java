@@ -1,4 +1,4 @@
-package Loop01;
+package ch06_loop01;
 // 더블 와일과 비교한것
 public class Test2 {
     public static void main(String[] args) {

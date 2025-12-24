@@ -1,4 +1,4 @@
-package Loop01;
+package ch06_loop01;
 // 이 파일은 더블와일 테스트용이다.
 public class Test {
     public static void main(String[] args) {
