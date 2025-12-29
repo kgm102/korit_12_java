@@ -53,8 +53,7 @@ public class Condition11Switch {
                 System.out.println("메뉴 6을 선택하셨습니다.");
             }
 
-        }
-        switch (choice){
+        }switch (choice){
             case 1:
                 System.out.println("메뉴 1을 선택하셨습니다.");
                 break;
@@ -74,5 +73,6 @@ public class Condition11Switch {
                 System.out.println("메뉴 6을 선택하셨습니다.");
                 break;
         }
+
     }
 }

@@ -63,9 +63,10 @@ public class Scanner01 {
         // 변수를 선언하고 초기화
         int year = sc.nextInt();
         System.out.println("당신의 이름은 무엇인가요?");
+        sc.nextLine();
         String name2 = sc.nextLine();
         // enter키를 받아주는 nextLine()을 추가
-        sc.nextLine();  // 얘는 enter만 받아주는거지 그 데이터를 어디다 쓸게 아니니까
+        // 얘는 enter만 받아주는거지 그 데이터를 어디다 쓸게 아니니까
         // 변수에 저장할 필요가 없겠죠. 변수에 저장한다는 건 메모리를 할당한다는 의미
         System.out.println("연도 : " + year);
         System.out.println("이름 : " + name2);
