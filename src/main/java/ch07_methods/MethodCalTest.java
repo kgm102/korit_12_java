@@ -1,4 +1,4 @@
-package ch07_mehods;
+package ch07_methods;
 
 public class MethodCalTest {
 

@@ -1,4 +1,4 @@
-package ch07_mehods;
+package ch07_methods;
 
 public class Test {
     public static void main(String[] args) {

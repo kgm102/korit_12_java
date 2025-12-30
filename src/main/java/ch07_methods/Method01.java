@@ -1,6 +1,4 @@
-package ch07_mehods;
-
-import java.util.Scanner;
+package ch07_methods;
 
 public class Method01 {
 

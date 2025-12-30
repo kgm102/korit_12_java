@@ -10,7 +10,7 @@ package ch08_classes;
     특징 :
         1. 클래스의 이름과 생성자닁 읾은 동일하다.
         (다른 메서드들과 달리 Pascal case로 작성되죠,
-        그리고 아ㅏㄱ 수어업에서 들었따면 meathod는 동사로 시작되는데,
+        그리고 아ㅏㄱ 수어업에서 들었따면 method는 동사로 시작되는데,
         얘는 클래스 이름이랑 똑같으니 명사겠네요.
         2. return 값이 없습니다. -> call(), call2() 유형으로 생각할 수 있음.
         3. 객체 초기화 : 생성자는 객체의 필드 '초기화'를 담당한다.
@@ -34,7 +34,43 @@ public class Constructor {
         System.out.println("RequiredArgsConstructor(int 매개변수를 필수로 요구하는 생성자)");
         this.num = number;
     }
+/*
+    지시 사항
+    String title을 매개변수로 하는 생성자를 정의하고,
+    RequiredArgsConsturtor(String 매개변수를 필수로 요구하는 생성자) 라는 안내문을
+    출력할 수 있도록 작성한 뒤
+    ConstructorMain으로 가서 constructor4라는 객체명을 지니고, title에 "김사"으로
+    이름 붙이고 객체를 생성한 후,
+    System.out.println(constructor4.name);을 입력하여 콘솔에 "김사"를 출력하시오.
 
+    지시 사항 # 2
+    int num, String name을 매개변수로 하는 생성자를 정의하고
+    AllArgsConstructor(int, String 전부를 매개변수로 요구하는 생성자) 라는 안내문을
+    출력할 수 있도록 작성한 뒤
+    ConstructorMain으로 가서
+
+    지시 사항 # 3
+    Car.java 파일 내에 있는 displayinfo() 메서드를 참조하여
+    constructor5.displayInfo();를 호출했을 경우
+    김오 학생의 학번은 5번 입니다.
+    를 콘솔에 출력할 수 있도록 Constructor.java에 displayInfo() 메서드를 call1() 유형으로
+    작성하고
+    ConstructorMain에서 호출하세요.
+ */
+    public Constructor(String title){
+        System.out.println("RequiredArgsConstructor(String 매개변수를 필수로 요구하는 생성자)");
+        this.name = title;
+    }
+
+    public Constructor(int num, String name){
+        System.out.println("AllArgsConstructor(int, String 전부를 매개변수로 요구하는 생성자)");
+        this.name = name;
+        this.num = num;
+    }
+
+    public void displayInfo(){
+        System.out.println(name + "학생의 학번은 " + num + " 번 입니다.");
+    }
 
 }
 
