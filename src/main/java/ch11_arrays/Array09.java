@@ -1,6 +1,6 @@
 package ch11_arrays;
 
-public class Arrays09{
+public class Array09 {
     public static void main(String[] args) {
 
         String[] names = {"김일", "김이", "김삼", "김사", "김오"};

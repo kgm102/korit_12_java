@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Random;
 
-public class Aarray11 {
+public class Array11 {
     public static void main(String[] args) {
         Integer[] numbers = new Integer[10];
         Random random = new Random();
