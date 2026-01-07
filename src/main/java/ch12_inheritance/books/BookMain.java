@@ -1,7 +1,5 @@
 package ch12_inheritance.books;
 
-import java.security.interfaces.ECPublicKey;
-
 public class BookMain {
     public static void main(String[] args) {
         Book book1 = new Book("자바의 정석", "남궁성");

@@ -21,10 +21,9 @@ public class EBook extends Book{
     }
 
     public void showInfo(){
-        System.out.println("제목 : " + getTitle());
-        System.out.println("저자 : " + getAuthor());
-        System.out.println("파일 크기 : " + getFileSize());
-        System.out.println("파일 형식 : " + getFormat());
+        super.showInfo();
+        System.out.println("파일 크기 : " + fileSize);
+        System.out.println("파일 형식 : " + format);
     }
 
     public EBook(String title, String author, double fileSize, String format) {
