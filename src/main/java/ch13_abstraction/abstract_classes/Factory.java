@@ -7,14 +7,17 @@ public abstract class Factory {
     public abstract void manage();
 
     public String getName() {
+
         return name;
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 
     public void showInfo() {
+
         System.out.println("공장의 정보를 출력합니다. \n공장이름 : " + name);
     }
 }
