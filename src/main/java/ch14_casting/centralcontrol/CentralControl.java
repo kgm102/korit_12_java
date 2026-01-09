@@ -186,10 +186,15 @@ public class CentralControl {
         for (int i = 0; i < deviceArray.length; i++){
             if(deviceArray[i] != null && deviceArray[i].getClass().getSimpleName().equals(device)){
                 deviceArray[i] = null;
-                continue;
             }
         }
     }
+    // 다른 방법
+//    public void deleteDevice(int slot){
+//        int i = slot - 1;
+//        System.out.println(deviceArray[i].getClass().getSimpleName() + "을(를) 삭제했습니다.");
+//        deviceArray[i]  = null;
+//    }
 }
 
 /*

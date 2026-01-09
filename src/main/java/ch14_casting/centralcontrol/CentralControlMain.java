@@ -61,8 +61,9 @@ public class CentralControlMain {
             1. 인덱스에 위치한 기기 삭제
             2. 지정한 모든 기기 삭제
          */
+        System.out.println("------------------------");
         centralControl1.showInfo();
-        centralControl1.deleteDevice(4);
+        centralControl1.deleteDevice(0);
         centralControl1.deleteDevice("LED");
         centralControl1.showInfo();
 
