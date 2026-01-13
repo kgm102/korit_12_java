@@ -2,15 +2,11 @@ package ch18_generic.bmi;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.ToString;
 
-@Getter
 @AllArgsConstructor
-@ToString
-public class Person {
+@Getter
+public class Dog {
     private String name;
     private double height;
     private double weight;
 }
-
-
